@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ranita Cake - Kue Kering Lezat dan Berkualitas. Tersedia Nastar, Kastengel, Kue Salju, dan lainnya.">
+  <meta name="keywords" content="kue kering, ranita cake, nastar, kastengel, kue lebaran">
+  <meta name="author" content="Ranita Cake">
+  <title>Ranita Cake - Kue Kering Lezat dan Berkualitas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    header {
+      background: url('https://via.placeholder.com/1920x600') center center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .product-img, .testimonial-img {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ranita Cake</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Produk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center">
+    <div class="container">
+      <h1 class="display-4">Selamat Datang di Ranita Cake</h1>
+      <p class="lead">Kue Kering Lezat dan Berkualitas untuk Setiap Momen</p>
+      <a href="#products" class="btn btn-warning btn-lg mt-3">Lihat Produk</a>
+    </div>
+  </header>
+
+  <!-- Tentang Kami -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Tentang Kami</h2>
+      <p class="text-center">Ranita Cake adalah usaha rumahan yang bergerak di bidang pembuatan kue kering premium seperti Nastar, Kastengel, dan kue khas lainnya. Kami menggunakan bahan-bahan berkualitas dan resep warisan keluarga untuk menghasilkan kue yang lezat dan menggugah selera.</p>
+    </div>
+  </section>
+
+  <!-- Produk -->
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Produk Kami</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="nastar.jpeg" alt="Nastar" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Nastar</h5>
+              <p class="card-text">Nastar dengan isian nanas segar dan kulit yang lembut.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="kastengel.jpeg" alt="Kastengel" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Kastengel</h5>
+              <p class="card-text">Kastengel renyah dengan taburan keju premium.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="kue salju.jpeg" alt="Kue Salju" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Kue Salju</h5>
+              <p class="card-text">Kue salju lembut dengan taburan gula halus yang manis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="sagu keju.jpeg" alt="Sagu Keju" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Sagu Keju</h5>
+              <p class="card-text">Sagu keju lumer di mulut dengan aroma keju yang kuat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="kue semprit.jpeg" alt="Kue Semprit" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Kue Semprit</h5>
+              <p class="card-text">Semprit klasik dengan cita rasa nostalgia dan renyah.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <img src="chocochips.jpeg" alt="Kue Chocochips" class="card-img-top product-img">
+            <div class="card-body">
+              <h5 class="card-title">Kue Chocochips</h5>
+              <p class="card-text">Kue kering coklat dengan taburan chocochips melimpah.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Apa Kata Pelanggan</h2>
+      <div class="row g-4">
+        <div class="col-md-3 text-center">
+          <img src="Chelsea Islan.jpeg" alt="Anna" class="testimonial-img mb-2">
+          <h6>Anna</h6>
+          <p>"Nastarnya enak banget, manisnya pas dan isiannya banyak!"</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="Rafi Ahmad.jpeg" alt="Budi" class="testimonial-img mb-2">
+          <h6>Budi</h6>
+          <p>"Saya suka kastengelnya, renyah dan kejunya terasa banget."</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="Nagita Salvina.jpeg" alt="Citra" class="testimonial-img mb-2">
+          <h6>Citra</h6>
+          <p>"Kue saljunya lembut banget. Anak-anak saya suka sekali."</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="Dedy Corbuzer.jpg" alt="Dedi" class="testimonial-img mb-2">
+          <h6>Dedi</h6>
+          <p>"Pelayanan cepat dan rasa kuenya benar-benar premium."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak dan Footer -->
+  <footer id="contact" class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>Hubungi Kami:</p>
+      <p>
+        <a href="https://wa.me/6281234567890" class="text-white me-3"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+        <a href="https://instagram.com/ranitacake" class="text-white"><i class="bi bi-instagram"></i> Instagram</a>
+      </p>
+      <p>&copy; 2025 Ranita Cake. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/6281234567890" class="whatsapp-float" aria-label="Chat via WhatsApp">
+    <i class="bi bi-whatsapp fs-3"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
